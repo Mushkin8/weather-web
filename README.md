@@ -57,7 +57,7 @@
                 alert("Please enter a location");
                 return;
             }
-            const apiKey = "fb5bc145d67b46bdbc854535251502";
+            const apiKey = "";
             const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=no`;
             try {
                 const response = await fetch(url);
